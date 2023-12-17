@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "maxNodeModuleJsDepth": 10,
+    "isolatedModules": true,
+    "lib": ["ESNext"],
+    "types": ["node"]
+  },
+  "exclude": ["node_modules"]
+}
