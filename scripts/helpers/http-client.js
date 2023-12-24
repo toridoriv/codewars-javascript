@@ -53,7 +53,7 @@ export class HttpClient {
    * @template T
    * @param {string}      endpoint
    * @param {RequestInit} [options={}]
-   * @returns {Promise<{ response: Response; body: T }>}
+   * @returns {Promise<HttpResponse<T>>}
    */
   async postJson(endpoint, options = {}) {
     const response = await this.fetch(endpoint, { ...options, method: "POST" });
