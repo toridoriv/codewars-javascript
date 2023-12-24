@@ -1,7 +1,7 @@
 {
   "[javascript]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
-    "editor.rulers": [80]
+    "editor.rulers": [100]
   },
   "[json][jsonc]": {
     "editor.quickSuggestions": {

@@ -4,7 +4,7 @@ export default {
   tabWidth: 2,
   semi: true,
   singleQuote: false,
-  printWidth: 80,
+  printWidth: 100,
   proseWrap: "always",
   quoteProps: "consistent",
   useTabs: false,
@@ -13,9 +13,11 @@ export default {
   plugins: ["@homer0/prettier-plugin-jsdoc"],
   jsdocEnsureDescriptionsAreSentences: true,
   jsdocPrintWidth: 100,
-  jsdocTagsOrder: ["example", "template", "param", "returns", "typedef"],
+  jsdocTagsOrder: ["link", "example", "template", "param", "returns", "typedef"],
   jsdocFormatExamples: false,
   jsdocUseInlineCommentForASingleTagBlock: true,
+  jsdocUseSingleQuotesForStringLiterals: false,
+  jsdocIndentFormattedExamples: false,
 };
 
 /** @typedef {import("prettier").Config} PrettierConfig */
