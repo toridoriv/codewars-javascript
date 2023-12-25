@@ -57,6 +57,9 @@
       "sourceType": "module",
       "ecmaVersion": "latest"
     },
-    "plugins": []
+    "plugins": [],
+    "rules": {
+      "no-unused-vars": "warn"
+    }
   }
 }
