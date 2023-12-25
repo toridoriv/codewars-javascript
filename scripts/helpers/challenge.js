@@ -37,9 +37,15 @@ export class CodeWarsKata {
   }
 
   getMainFunctionName() {
-    const startString = "function ";
+    let startString = "function ";
+    let endString = "(";
+
+    if (this.session.setup.startsWith("class")) {
+      startString = "class ";
+      endString = "{";
+    }
+
     const start = this.session.setup.indexOf(startString) + startString.length;
-    const endString = "(";
     const end = this.session.setup.indexOf(endString);
 
     return this.session.setup.substring(start, end).trim();
