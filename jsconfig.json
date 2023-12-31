@@ -7,7 +7,8 @@
     "maxNodeModuleJsDepth": 10,
     "isolatedModules": true,
     "lib": ["ESNext"],
-    "types": ["node"]
+    "types": ["node"],
+    "strictNullChecks": true
   },
   "exclude": ["node_modules"]
 }
