@@ -3,7 +3,7 @@
   "description": "My solutions for Codewars challenges in JavaScript.",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules --no-warnings ./node_modules/.bin/jest --runInBand",
+    "test": "node --experimental-vm-modules --no-warnings ./node_modules/.bin/jest --runInBand --verbose",
     "init": "scripty",
     "postinit": "prettier --config prettier.config.js -w ./solutions",
     "chmod": "chmod -R +x scripts"
